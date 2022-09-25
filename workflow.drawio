@@ -1,0 +1,51 @@
+<mxfile host="65bd71144e">
+    <diagram id="LyZYeJpoRU0uGHsLWCg7" name="outer folder structure">
+        <mxGraphModel dx="436" dy="270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="resources" style="image;html=1;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="1">
+                    <mxGeometry x="50" y="30" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="server" style="image;html=1;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="1">
+                    <mxGeometry x="190" y="90" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="client" style="image;html=1;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="1">
+                    <mxGeometry x="60" y="150" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="hold html template" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="20" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="server code&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="110" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="react code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="250" width="90" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="HyzfypnrEFuiob4DZuUU" name="resources structure">
+        <mxGraphModel dx="436" dy="270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="TK-WDwa8FC0kEa1FVBZ6-0"/>
+                <mxCell id="TK-WDwa8FC0kEa1FVBZ6-1" parent="TK-WDwa8FC0kEa1FVBZ6-0"/>
+                <mxCell id="TK-WDwa8FC0kEa1FVBZ6-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TK-WDwa8FC0kEa1FVBZ6-1">
+                    <mxGeometry x="30" y="60" width="420" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="TK-WDwa8FC0kEa1FVBZ6-3" value="resources folder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TK-WDwa8FC0kEa1FVBZ6-1">
+                    <mxGeometry x="60" y="90" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="TK-WDwa8FC0kEa1FVBZ6-6" value="html" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="TK-WDwa8FC0kEa1FVBZ6-1">
+                    <mxGeometry x="91" y="180" width="69" height="56.00000000000001" as="geometry"/>
+                </mxCell>
+                <mxCell id="TK-WDwa8FC0kEa1FVBZ6-7" value="images" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="TK-WDwa8FC0kEa1FVBZ6-1">
+                    <mxGeometry x="91" y="280" width="69" height="56.00000000000001" as="geometry"/>
+                </mxCell>
+                <mxCell id="TK-WDwa8FC0kEa1FVBZ6-8" value="css" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="TK-WDwa8FC0kEa1FVBZ6-1">
+                    <mxGeometry x="270" y="190" width="69" height="56.00000000000001" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
