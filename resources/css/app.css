@@ -1,7 +1,62 @@
 body{
-    background: lightblue;
-    font: 18px arial, helvetica, sans-serif ;
+   font-family:"Raleway", sans-serif ;
+   font-size: 1rem;
+   line-height: 1.6;
+   background-color: #fff;
+   color: #333;
 }
-h1{
-    font: 30px sans-serif;
+:root{
+    /* refers the root element called html
+    formatting for root element/html tag will be specified here
+    */
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+/* style here will be cascaded to the entire html elements including body tag overriding */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0cm;
+
+}
+/* a tag */
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+/* unordered list  whereever we will use ul tag there, it will be supplied*/
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+/* creating custom style for */
+.btn{
+    /* btn holds css details for custom style */
+    display: inline-block;
+    background: var(--light-color);
+    color: #333;
+    padding:0.4rem 1.3rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: opacity 0.2s ease-in;
+    outline: none ;
+
+}
+/* div : containers
+can we have common formatting ?
+yes*/
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
 }
