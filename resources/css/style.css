@@ -202,7 +202,7 @@ img {
 .alert-white {
   background: #fff;
   color: #333;
-  border: #ccc solid 1px;
+  /* border: #ccc solid 1px; */
 }
 
 .btn:hover {
@@ -360,7 +360,17 @@ button {
   margin-bottom: 1rem;
 }
 
+.profile i.fa-check {
+  color: #0077b5;
+}
+
 /* Profile Page */
+.profile-top img,
+.profile img {
+  width: 200px;
+  margin: auto;
+}
+
 .profile-grid {
   display: grid;
   grid-template-areas:

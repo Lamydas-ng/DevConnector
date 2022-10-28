@@ -202,8 +202,7 @@ img {
 .alert-white {
   background: #fff;
   color: #333;
-  border: #ccc solid 1px;
-}
+ }
 
 .btn:hover {
   opacity: 0.8;
@@ -268,7 +267,7 @@ button {
 }
 
 .form .social-input i {
-  padding: 0.5rem;
+  padding: 0.2rem;
   width: 4rem;
 }
 
@@ -287,6 +286,8 @@ button {
 .form .social-input i.fa-linkedin {
   color: #0077b5;
 }
+
+
 
 .table th,
 .table td {
@@ -358,6 +359,10 @@ button {
   padding: 1rem;
   line-height: 1.8;
   margin-bottom: 1rem;
+}
+
+.profile i.fa-check {
+  color: #0077b5;
 }
 
 /* Profile Page */
