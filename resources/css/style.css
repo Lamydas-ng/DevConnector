@@ -20,6 +20,9 @@ body {
   background-color: #fff;
   color: #333;
 }
+.border-box{
+ border: #ccc solid 1px;
+}
 
 a {
   color: var(--primary-color);
