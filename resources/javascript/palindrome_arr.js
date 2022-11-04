@@ -7,9 +7,11 @@
 // then compare the original number with reversal number.
 
 
+
+
 // declare an array with 10 numbers and find out palindrome numbers in the array.
 
-var number_arr = [323,456,789,101112,125,785,558,721,14,121];
+var number_arr = [323,456,789,10111,125,785,558,721,14,121];
 
 
 for(i=number_arr.length-1; i>=0; i--){
@@ -24,19 +26,18 @@ for(i=number_arr.length-1; i>=0; i--){
 
     while (number > 0) {
     // do we need to separate the digits and form the number
-    
+
     digit = number % 10;
-    
-    reversal = reversal * 10 + digit;
-    console.log(digit);
-    number = Math.floor(number / 10);
+
+        reversal = reversal * 10 + digit;
+        //  if( reversal == temp)
+        //     console.log(digit);
+            number = Math.floor(number / 10);
 
         counter++;
     }
 
     if( reversal == temp)
-    console.log("final number: " + reversal + " is palindrome");
-    else
-    console.log("final number: " + reversal + " is not palindrome");
- }
+    console.log("The number: " + reversal + " is palindrome");
 
+ }
