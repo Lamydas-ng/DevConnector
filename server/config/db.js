@@ -11,10 +11,10 @@ const connectDB = async () => {
 // we will write the code where we may get an error
 
         await mongoose.connect(db, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-            useCrearedIndex: true,
-            useFindAndModify: false
+            // useNewUrlParser: true,
+            // useUnifiedTopology: true,
+            // useCrearedIndex: true,
+            // useFindAndModify: false
         });
        
         console.log("connected to mongodb");
