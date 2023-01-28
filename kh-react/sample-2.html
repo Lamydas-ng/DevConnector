@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript getElementsByName Demo</title>
+    
+    <script  type="text/javascript"
+    src="/kh-react/sample.js"></script>
+    </script>
+</head>
+
+<body>
+    <p>Please rate the service:</p>
+    <p>
+        <label for="very-poor">
+            <input type="radio" name="rate" value="Very poor" id="very-poor"> Very poor
+        </label>
+        <label for="poor">
+            <input type="radio" name="rate" value="Poor" id="poor"> Poor
+        </label>
+        <label for="ok">
+            <input type="radio" name="rate" value="OK" id="ok"> OK
+        </label>
+        <label for="good">
+            <input type="radio" name="rate" value="Good"> Good
+        </label>
+        <label for="very-good">
+            <input type="radio" name="rate" value="Very Good" id="very-good"> Very Good
+        </label>
+    </p>
+    <p>
+        <button id="btnRate">Submit</button>
+    </p>
+    <p id="output"></p>
+    <script>
+       
+    </script>
+    <form id="signup" onsubmit="return onSubmit()">
+        <h1>Sign Up</h1>
+        <div class="field">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your fullname"
+          />
+          <small></small>
+        </div>
+        <div class="field">
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+          />
+          <small></small>
+        </div>
+        <div class="field">
+          <label for="dob">Date of Birth:</label>
+          <input
+            type="date"
+            id="dob"
+            name="dob"
+            placeholder="Enter your Date of Birth"
+          />
+          <small></small>
+        </div>
+        <div class="field">
+          <label for="dob">Date of Join:</label>
+          <input
+            type="date"
+            id="doj"
+            name="doj"
+            placeholder="Enter your Date of Join"
+          />
+          <small></small>
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+          />
+          <small></small>
+        </div>
+        <div class="field">
+          <label for="password">Confirm Password</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            name="password"
+            placeholder="Enter your password"
+          />
+          <small></small>
+        </div>
+        <div class="field">
+          <label for="name">First Name:</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Enter your first name"
+          />
+          <small></small>
+        </div>
+        <div class="field">
+          <label for="name">Last Name:</label>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Enter your last name"
+          />
+          <small></small>
+        </div>
+        <!-- dob doj date of join, password, confirm password, firstname, lastname -->
+        <input type="submit" value="submit" />
+      </form>
+
+    
+          <script>
+            function validateForm() {
+              let x = document.forms["myForm"]["fname"].value;
+              if (x == "") {
+                alert("Name must be filled out");
+                return false;
+              }
+            }
+          </script>
+   
+          <h2>JavaScript Validation</h2>
+      
+          <form
+            name="myForm"
+            action="/action_page.php"
+            onsubmit="return validateForm()"
+            method="post"
+          >
+            Name: <input type="text" name="fname" />
+            <input type="submit" value="Submit" />
+          </form>
+ 
+      
+      
+</body>
+
+</html>

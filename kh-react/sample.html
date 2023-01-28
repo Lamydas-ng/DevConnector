@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>JavaScript DOM</title>
+    </head>
+    <body>
+    <script type="text/javascript"> 
+        let element=document.body;
+        console.log(element);
+        var divElement = document.createElement('div');
+        divElement.innerHTML='This is my custom dom element';
+        divElement.style.color='red';
+        element.appendChild(divElement);
+        console.log(element.nodeType);
+        console.log(element.nodeValue);
+        console.log(element.nodeName);
+    </script>    
+        <p>Hello DOM!</p>
+
+
+        
+    </body>
+</html>

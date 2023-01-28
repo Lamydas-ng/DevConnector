@@ -84,7 +84,7 @@ console.log(JSON.stringify(req.user));
 // @access   Public
 router.get("/", async (req, res) => {
   try {
-    const profiles = await Profile.find().populate("user", ["name", "avatar"]);
+    const profiles = await profile.find().populate("user", ["name", "avatar"]);
     res.json(profiles);
   } catch (err) {
     console.error(err.message);
