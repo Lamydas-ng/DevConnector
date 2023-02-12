@@ -1,14 +1,11 @@
-//component
+import React from 'react'
 
-//class based components
+const Footer = (props) => {
+  return (
+    <>
+        <div>&copy;{ new Date().getFullYear() } https://www.knowledgehut.com {props.appName}</div>
+    </>
+  );
+};
 
-
-import React, { Component } from 'react'
-
-export default class Footer extends Component {
-  render() {
-    return (
-      <div>&copy;{ new Date().getFullYear() } https://www.knowledgehut.com</div>
-    )
-  }
-}
+export default Footer
