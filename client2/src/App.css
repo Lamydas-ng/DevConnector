@@ -151,6 +151,13 @@ img {
   color: #333;
 }
 
+.alert-wrapper {
+  position: fixed;
+  top: 4rem;
+  right: 2rem;
+  display: inline-block;
+}
+
 .alert {
   padding: 0.8rem;
   margin: 1rem 0;
@@ -583,6 +590,15 @@ button {
     width: 100%;
     margin-bottom: 0.2rem;
   }
+
+  .buttons {
+    display: flex;
+  
+ 
+    flex-direction: column-reverse;
+  }
+
+ 
 
   .post {
     grid-template-columns: 1fr;

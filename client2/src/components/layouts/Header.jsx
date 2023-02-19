@@ -4,11 +4,11 @@ const Header = (props) => {
   return (
     <div> 
     
-      <nav class="navbar bg-dark">
+      <nav className='navbar bg-dark'>
     <h1>
-        <a class="btn" href="/"><i class="fas fa-code"></i>{props.appName}</a>
+        <a className="btn" href="/"><i className="fas fa-code"></i>{props.appName}</a>
     </h1>
-    <ul>
+    <ul className='buttons'>
         <li><Link to="/register" class="btn ">Developers</Link></li>
         <li><Link to="/register" class="btn " >Signup</Link></li>
         <li><Link to="/login" class="btn">SignIn</Link></li>
