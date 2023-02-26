@@ -6,6 +6,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 //action import
 import { register } from "../../redux/actions/authAction";
+import { Navigate } from "react-router-dom";
 //import authReducer from "../../redux/reducers/authReducer";
 const initialState = {
   name: "Abhi",
@@ -31,6 +32,10 @@ export const Register2 = ({isAuthenticated,register}) => {
 
     //this.setState({ [e.target.name]: e.target.value });
   };
+if(isAuthenticated){
+  return <Navigate to="/dashboard"></Navigate>
+}
+
   const onSubmit = (e) => {
     e.preventDefault();
     if (password === confirmPassword) {
